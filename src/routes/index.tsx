@@ -117,7 +117,7 @@ function Home() {
           <div className="absolute -bottom-7 -right-5 h-28 w-28 rotate-12 rounded-[30%] bg-gold/75 drift-slow" />
           <div className="absolute -right-7 top-16 h-14 w-14 rotate-45 rounded-lg bg-mint orbit-slow" />
           <motion.img
-            src="/images/home-hero-south-indian-children-static.jpg"
+            src="/images/home-hero-family-board.png"
             alt="A mother and daughter using their Ennotraan daily routine evaluation board together"
             width={1024}
             height={1024}

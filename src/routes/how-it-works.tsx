@@ -2,7 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import { motion } from "motion/react";
 import { CtaBand } from "@/components/cta-band";
 import { PageHero } from "@/components/page-hero";
-import howItWorksHero from "@/assets/how-it-works-hero.jpg";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/motion";
 import { steps } from "@/content/site";
 
@@ -35,7 +34,7 @@ function HowItWorks() {
         eyebrow="How it works"
         title="A simple daily practice shared by parent and child."
         intro="No apps, logins, or notifications for your child. Just a physical board with a customised habit sheet, space for daily achievements, and guaranteed screen-free family time."
-      image={{ src: howItWorksHero, alt: "A parent and child looking at a printed habit checklist at the kitchen table", width: 1200, height: 900 }}
+       image={{ src: "/images/how-it-works-south-indian.jpg", alt: "Two South Indian children marking their daily habits together at home", width: 1024, height: 1024 }}
       />
 
       <section className="mx-auto max-w-6xl px-6 py-12">
