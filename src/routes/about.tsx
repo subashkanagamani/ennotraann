@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { CtaBand } from "@/components/cta-band";
 import { PageHero } from "@/components/page-hero";
-import aboutHero from "@/assets/about-hero.jpg";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/motion";
 
 export const Route = createFileRoute("/about")({
@@ -49,9 +48,14 @@ function About() {
     <>
       <PageHero
         eyebrow="Why we built this"
-        title="Offered completely free, powered by purpose, not profit off children."
-        intro="Ennotraan is offered completely free to families because we believe every household deserves a simple, honest tool to build good habits and reclaim digital balance."
-      image={{ src: aboutHero, alt: "The Ennotraan team sketching ideas together around a table", width: 1200, height: 900 }}
+        title="Rooted in Thirukkural 70: Raising Souls of Character, Not Just Citizens of Screen Time"
+        intro="Because Childhood Belongs in Hands, Not on Screens"
+        image={{
+          src: "/images/why-we-built-hero.jpg",
+          alt: "People planting a young tree together",
+          width: 1200,
+          height: 1200,
+        }}
       />
 
       <section className="relative overflow-hidden bg-primary px-6 py-24 text-primary-foreground">
@@ -66,10 +70,11 @@ function About() {
             for society and what is good for a business, society comes first, always.
           </p>
           <p className="mt-8 text-xl leading-relaxed sm:text-2xl">
-            Even if you own a Benz, the road still needs to be good — otherwise the Benz is of no
-            use. In the same way, one person alone cannot change anything; everyone in society needs
-            to be good in all terms. That is why we are building this for everyone — school students,
-            college students, parents, working professionals, and all humans — together.
+            Even the finest vehicle is rendered useless if the road beneath it is broken. In the same
+            way, personal success means little if the society around us lacks character and
+            discipline. True transformation cannot happen in isolation—it requires everyone to rise
+            together. That is why Ennotraan is built for all: students, parents, professionals, and
+            every individual committed to a better collective future.
           </p>
         </Reveal>
       </section>
@@ -96,16 +101,12 @@ function About() {
         <Reveal className="mt-14 max-w-2xl text-lg leading-relaxed text-muted-foreground">
           <p>
             Ennotraan is a social initiative by PPLMeliorate Services Private Limited, a recognised
-            startup in Tamil Nadu. To talk to us directly, reach Saravanan Ganesan on{" "}
-            <a href="tel:+917092023733" className="text-primary underline-offset-4 hover:underline">
-              +91 70920 23733
-            </a>{" "}
-            or{" "}
+            startup in Tamil Nadu. To talk to us directly, email{" "}
             <a
-              href="mailto:info@pplmeliorate.com"
+              href="mailto:info@ennotraan.com"
               className="text-primary underline-offset-4 hover:underline"
             >
-              info@pplmeliorate.com
+              info@ennotraan.com
             </a>
             .
           </p>
