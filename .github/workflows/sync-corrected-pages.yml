@@ -17,13 +17,15 @@ jobs:
         run: |
           curl -fSLo src/routes/index.tsx https://raw.githubusercontent.com/subashkanagamani/ennotraan/main/src/routes/index.tsx
           curl -fSLo src/routes/how-it-works.tsx https://raw.githubusercontent.com/subashkanagamani/ennotraan/main/src/routes/how-it-works.tsx
+          curl -fSLo src/routes/about.tsx https://raw.githubusercontent.com/subashkanagamani/ennotraan/main/src/routes/about.tsx
           curl -fSLo public/images/home-hero-family-board.png https://raw.githubusercontent.com/subashkanagamani/ennotraan/main/public/images/home-hero-family-board.png
           curl -fSLo public/images/how-it-works-south-indian.jpg https://raw.githubusercontent.com/subashkanagamani/ennotraan/main/public/images/how-it-works-south-indian.jpg
+          curl -fSLo public/images/why-we-built-hero.jpg https://raw.githubusercontent.com/subashkanagamani/ennotraan/main/public/images/why-we-built-hero.jpg
       - name: Push corrections
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/routes/index.tsx src/routes/how-it-works.tsx public/images/home-hero-family-board.png public/images/how-it-works-south-indian.jpg
+          git add src/routes/index.tsx src/routes/how-it-works.tsx src/routes/about.tsx public/images/home-hero-family-board.png public/images/how-it-works-south-indian.jpg public/images/why-we-built-hero.jpg
           git diff --cached --quiet && exit 0
           git commit -m "Apply corrected page images"
           git push
