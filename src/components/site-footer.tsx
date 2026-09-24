@@ -21,6 +21,9 @@ export function SiteFooter() {
           </p>
 
           <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm opacity-80">
+            <Link to="/about" className="underline-offset-4 hover:underline">
+              Why we built it
+            </Link>
             <Link to="/how-it-works" className="underline-offset-4 hover:underline">
               How it works
             </Link>
@@ -47,9 +50,6 @@ export function SiteFooter() {
             <Link to="/our-promise" className="underline-offset-4 hover:underline">
               Our promise
             </Link>
-            <Link to="/about" className="underline-offset-4 hover:underline">
-              Why we built it
-            </Link>
             <Link to="/join" className="underline-offset-4 hover:underline">
               Join free
             </Link>
@@ -57,13 +57,9 @@ export function SiteFooter() {
         </div>
         <div className="text-sm leading-relaxed opacity-75 md:text-right">
           <p>
-            Contact: Saravanan Ganesan,{" "}
-            <a href="tel:+917092023733" className="underline-offset-4 hover:underline">
-              +91 70920 23733
-            </a>
-            ,{" "}
-            <a href="mailto:info@pplmeliorate.com" className="underline-offset-4 hover:underline">
-              info@pplmeliorate.com
+            Contact:{" "}
+            <a href="mailto:info@ennotraan.com" className="underline-offset-4 hover:underline">
+              info@ennotraan.com
             </a>
           </p>
           <p className="mt-3">
