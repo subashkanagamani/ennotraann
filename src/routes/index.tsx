@@ -9,13 +9,13 @@ import { problemsAdults, problemsParents } from "@/content/site";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Ennotraan — Daily Habits Define Your Destiny" },
+      { title: "Ennotraan (என்நோற்றான்) — Daily Habits Define Your Destiny" },
       {
         name: "description",
         content:
           "A 100% free, screen-free way to build good habits. A physical board plus a private parent app for disciplined children, empowered parents, and self-driven adults.",
       },
-      { property: "og:title", content: "Ennotraan — Daily Habits Define Your Destiny" },
+      { property: "og:title", content: "Ennotraan (என்நோற்றான்) — Daily Habits Define Your Destiny" },
       { property: "og:type", content: "website" },
       {
         property: "og:description",
@@ -78,7 +78,7 @@ function Home() {
             transition={{ duration: 0.7, delay: 0.6 }}
             className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground"
           >
-            Ennotraan pairs a simple, physical board with a private app to build lifelong daily
+            Ennotraan (என்நோற்றான்) pairs a simple, physical board with a private app to build lifelong daily
             habits for every generation at home, without placing a screen in your child's hands. It
             gives parents a scientific tool to ease the hardship of everyday parenting, and gives
             adults a structured system to become true masters of their own lives. Offered completely
@@ -118,7 +118,7 @@ function Home() {
           <div className="absolute -right-7 top-16 h-14 w-14 rotate-45 rounded-lg bg-mint orbit-slow" />
           <motion.img
             src="/images/home-hero-family-board.png"
-            alt="A mother and daughter using their Ennotraan daily routine evaluation board together"
+            alt="A mother and daughter using their Ennotraan (என்நோற்றான்) daily routine evaluation board together"
             width={1024}
             height={1024}
             animate={{ y: [0, -12, 0] }}

@@ -6,18 +6,18 @@ import { Reveal } from "@/components/motion";
 export const Route = createFileRoute("/join")({
   head: () => ({
     meta: [
-      { title: "Join Ennotraan free — no cost, now or later" },
+      { title: "Join Ennotraan (என்நோற்றான்) free — no cost, now or later" },
       {
         name: "description",
         content:
-          "Leave your details and our team will personally welcome your family into Ennotraan. It is a free invitation, not a purchase.",
+          "Leave your details and our team will personally welcome your family into Ennotraan (என்நோற்றான்). It is a free invitation, not a purchase.",
       },
-      { property: "og:title", content: "Join Ennotraan free — no cost, now or later" },
+      { property: "og:title", content: "Join Ennotraan (என்நோற்றான்) free — no cost, now or later" },
       { property: "og:type", content: "website" },
       {
         property: "og:description",
         content:
-          "We are opening Ennotraan to families first. Join free and we will reach out personally.",
+          "We are opening Ennotraan (என்நோற்றான்) to families first. Join free and we will reach out personally.",
       },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -51,7 +51,7 @@ function Join() {
           transition={{ duration: 0.7, delay: 0.18, ease: [0.16, 1, 0.3, 1] }}
           className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground"
         >
-          We are opening Ennotraan to families first, so we can build it properly before we grow.
+          We are opening Ennotraan (என்நோற்றான்) to families first, so we can build it properly before we grow.
           Leave your details and our team will personally reach out to welcome you in.
         </motion.p>
         <Reveal delay={0.3}>

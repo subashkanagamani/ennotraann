@@ -14,7 +14,7 @@ export function SiteFooter() {
       />
       <Reveal className="relative mx-auto grid max-w-6xl gap-10 md:grid-cols-2">
         <div>
-          <h2 className="text-2xl">Ennotraan <span lang="ta" className="font-sans text-lg">என்நோற்றான்</span></h2>
+          <h2 className="text-2xl">Ennotraan <span lang="ta">(என்நோற்றான்)</span></h2>
           <p className="mt-3 max-w-md leading-relaxed opacity-75">
             A 100% free, screen-free framework helping families build lifelong habits, one honest
             day at a time.

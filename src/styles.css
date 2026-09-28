@@ -93,8 +93,8 @@
   --lilac: oklch(0.89 0.065 302);
   --sky: oklch(0.9 0.075 235);
   --shadow-soft: 0 18px 50px -30px oklch(0.4 0.11 266 / 0.38);
-  --font-display: "Fraunces", Georgia, serif;
-  --font-body: "Karla", system-ui, sans-serif;
+  --font-display: "Fraunces", "Noto Sans Tamil", Georgia, serif;
+  --font-body: "Karla", "Noto Sans Tamil", system-ui, sans-serif;
 
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);

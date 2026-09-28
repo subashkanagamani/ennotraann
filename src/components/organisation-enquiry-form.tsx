@@ -165,7 +165,7 @@ export function OrganisationEnquiryForm({ audience }: { audience: EnquiryAudienc
             Send enquiry
           </Button>
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-            Ennotraan is free. We will use these details only to contact you about the programme.
+            Ennotraan (என்நோற்றான்) is free. We will use these details only to contact you about the programme.
           </p>
         </motion.form>
       )}

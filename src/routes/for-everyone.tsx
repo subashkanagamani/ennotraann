@@ -9,7 +9,7 @@ import { adultSteps } from "@/content/site";
 export const Route = createFileRoute("/for-everyone")({
   head: () => ({
     meta: [
-      { title: "Not just for children — Ennotraan for adult self-discipline" },
+      { title: "Not just for children — Ennotraan (என்நோற்றான்) for adult self-discipline" },
       {
         name: "description",
         content:
@@ -17,7 +17,7 @@ export const Route = createFileRoute("/for-everyone")({
       },
       {
         property: "og:title",
-        content: "Not just for children — Ennotraan for adult self-discipline",
+        content: "Not just for children — Ennotraan (என்நோற்றான்) for adult self-discipline",
       },
       { property: "og:type", content: "website" },
       {

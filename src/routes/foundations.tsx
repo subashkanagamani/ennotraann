@@ -10,7 +10,7 @@ export const Route = createFileRoute("/foundations")({
       { title: "Foundations — Trust, Science and Family" },
       {
         name: "description",
-        content: "The principles behind Ennotraan: parental trust, zero peer comparison, age-appropriate science, and family-first flexibility.",
+        content: "The principles behind Ennotraan (என்நோற்றான்): parental trust, zero peer comparison, age-appropriate science, and family-first flexibility.",
       },
       { property: "og:title", content: "Foundations — Trust, Science and Family" },
       {

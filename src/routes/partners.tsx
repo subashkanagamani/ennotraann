@@ -42,12 +42,12 @@ const categories = [
 export const Route = createFileRoute("/partners")({
   head: () => ({
     meta: [
-      { title: "Partner with Ennotraan — Purposeful Rewards" },
+      { title: "Partner with Ennotraan (என்நோற்றான்) — Purposeful Rewards" },
       {
         name: "description",
-        content: "Join Ennotraan's Reward Reimbursement Network and connect with families through purposeful, high-intent co-pay rewards.",
+        content: "Join Ennotraan (என்நோற்றான்)'s Reward Reimbursement Network and connect with families through purposeful, high-intent co-pay rewards.",
       },
-      { property: "og:title", content: "Partner with Ennotraan — Purposeful Rewards" },
+      { property: "og:title", content: "Partner with Ennotraan (என்நோற்றான்) — Purposeful Rewards" },
       {
         property: "og:description",
         content: "A high-trust platform connecting purpose-driven brands with families celebrating discipline and progress.",
@@ -63,7 +63,7 @@ function Partners() {
   return (
     <>
       <PageHero
-        eyebrow="Partnering with Ennotraan"
+        eyebrow="Partnering with Ennotraan (என்நோற்றான்)"
         title="Connect with highly engaged families through purposeful, high-intent rewards."
         intro="Join our Reward Reimbursement Network to meet motivated parents and adults when they redeem earned discipline points for useful co-pay discounts—supporting a healthier, screen-free society while driving conversion-ready business."
         image={{
@@ -75,7 +75,7 @@ function Partners() {
       />
 
       <section className="mx-auto max-w-6xl px-6 py-12">
-        <Reveal><h2 className="text-2xl sm:text-3xl">Why brands partner with Ennotraan</h2></Reveal>
+        <Reveal><h2 className="text-2xl sm:text-3xl">Why brands partner with Ennotraan (என்நோற்றான்)</h2></Reveal>
         <StaggerGroup className="mt-8 grid gap-6 sm:grid-cols-2">
           {benefits.map((item, index) => (
             <StaggerItem key={item.title} className="h-full">
@@ -102,7 +102,7 @@ function Partners() {
         </StaggerGroup>
       </section>
 
-      <CtaBand title="Join our Partner Network." body="Talk to us about offering purposeful rewards to the Ennotraan community." />
+      <CtaBand title="Join our Partner Network." body="Talk to us about offering purposeful rewards to the Ennotraan (என்நோற்றான்) community." />
     </>
   );
 }

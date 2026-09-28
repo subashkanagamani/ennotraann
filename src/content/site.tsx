@@ -68,7 +68,7 @@ export const steps = [
   },
   {
     title: "Daily parent-granted points and mutual rewards",
-    body: "Once a day, during your pre-selected time window and chosen days, open the free private app to review the physical board and personally award Ennotraan Points based on your child's effort. Parents also earn bonus points for consistency, active guidance, and honouring their selected phone-free time.",
+    body: "Once a day, during your pre-selected time window and chosen days, open the free private app to review the physical board and personally award Ennotraan (என்நோற்றான்) Points based on your child's effort. Parents also earn bonus points for consistency, active guidance, and honouring their selected phone-free time.",
   },
 ];
 
@@ -137,6 +137,6 @@ export const promises: { icon: ReactNode; title: string; body: string }[] = [
   {
     icon: <CoinIcon />,
     title: "Never treated as money",
-    body: "Points cannot be sold, transferred, or cashed out. They can only be turned into a real, useful reward, or donated to social needs, which Ennotraan ethically parks for the needy.",
+    body: "Points cannot be sold, transferred, or cashed out. They can only be turned into a real, useful reward, or donated to social needs, which Ennotraan (என்நோற்றான்) ethically parks for the needy.",
   },
 ];

@@ -8,13 +8,13 @@ import { steps } from "@/content/site";
 export const Route = createFileRoute("/how-it-works")({
   head: () => ({
     meta: [
-      { title: "How Ennotraan Works — Screen-Free Habits" },
+      { title: "How Ennotraan (என்நோற்றான்) Works — Screen-Free Habits" },
       {
         name: "description",
         content:
-          "Choose 10 to 12 habits, let your child mark and reflect on their day, then award Ennotraan Points in a private parent app.",
+          "Choose 10 to 12 habits, let your child mark and reflect on their day, then award Ennotraan (என்நோற்றான்) Points in a private parent app.",
       },
-      { property: "og:title", content: "How Ennotraan works — three simple steps" },
+      { property: "og:title", content: "How Ennotraan (என்நோற்றான்) works — three simple steps" },
       { property: "og:type", content: "website" },
       {
         property: "og:description",
@@ -73,16 +73,16 @@ function HowItWorks() {
 
       <section className="mx-auto max-w-6xl px-6 pb-4">
         <Reveal className="rounded-2xl border border-primary/15 bg-secondary p-8 sm:p-10">
-          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-primary">Ennotraan Points</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-primary">Ennotraan (என்நோற்றான்) Points</p>
           <h2 className="mt-3 text-2xl sm:text-3xl">Badges of Honour, Not Currency</h2>
           <p className="mt-3 text-lg text-foreground/80">First a mark of pride, second a gateway to family rewards.</p>
-          <h3 className="mt-8 text-xl">The value of Ennotraan Points</h3>
+          <h3 className="mt-8 text-xl">The value of Ennotraan (என்நோற்றான்) Points</h3>
           <p className="mt-3 max-w-3xl leading-relaxed text-muted-foreground">
-            Above all, Ennotraan Points represent genuine pride—a tangible mark of honour for autonomous, trust-based discipline built quietly at home without social pressure, surveillance, or peer comparison.
+            Above all, Ennotraan (என்நோற்றான்) Points represent genuine pride—a tangible mark of honour for autonomous, trust-based discipline built quietly at home without social pressure, surveillance, or peer comparison.
           </p>
           <h3 className="mt-7 text-xl">Meaningful family rewards and social impact</h3>
           <p className="mt-4 max-w-3xl leading-relaxed text-muted-foreground">
-            Accumulated family points can later be redeemed through our separate Reimbursement Module, where curated Reward Reimbursement Partners offer exclusive co-pay discounts on educational tools, books, skill kits, apparel, and family lifestyle experiences. Families can also donate earned points toward social causes managed and fulfilled by Ennotraan. Points are never used for cash, screen time, or peer competition.
+            Accumulated family points can later be redeemed through our separate Reimbursement Module, where curated Reward Reimbursement Partners offer exclusive co-pay discounts on educational tools, books, skill kits, apparel, and family lifestyle experiences. Families can also donate earned points toward social causes managed and fulfilled by Ennotraan (என்நோற்றான்). Points are never used for cash, screen time, or peer competition.
           </p>
         </Reveal>
       </section>

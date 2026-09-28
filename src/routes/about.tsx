@@ -6,15 +6,15 @@ import { Reveal, StaggerGroup, StaggerItem } from "@/components/motion";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "Why we built Ennotraan — powered by purpose, not profit" },
+      { title: "Why we built Ennotraan (என்நோற்றான்) — powered by purpose, not profit" },
       {
         name: "description",
         content:
-          "Ennotraan is offered completely free to families. We sustain operations through modest referral commissions from reward reimbursement partners, never child data or ads.",
+          "Ennotraan (என்நோற்றான்) is offered completely free to families. We sustain operations through modest referral commissions from reward reimbursement partners, never child data or ads.",
       },
       {
         property: "og:title",
-        content: "Why we built Ennotraan — powered by purpose, not profit",
+        content: "Why we built Ennotraan (என்நோற்றான்) — powered by purpose, not profit",
       },
       { property: "og:type", content: "website" },
       {
@@ -73,7 +73,7 @@ function About() {
             Even the finest vehicle is rendered useless if the road beneath it is broken. In the same
             way, personal success means little if the society around us lacks character and
             discipline. True transformation cannot happen in isolation—it requires everyone to rise
-            together. That is why Ennotraan is built for all: students, parents, professionals, and
+            together. That is why Ennotraan (என்நோற்றான்) is built for all: students, parents, professionals, and
             every individual committed to a better collective future.
           </p>
         </Reveal>
@@ -100,7 +100,7 @@ function About() {
         </StaggerGroup>
         <Reveal className="mt-14 max-w-2xl text-lg leading-relaxed text-muted-foreground">
           <p>
-            Ennotraan is a social initiative by PPLMeliorate Services Private Limited, a recognised
+            Ennotraan (என்நோற்றான்) is a social initiative by PPLMeliorate Services Private Limited, a recognised
             startup in Tamil Nadu. To talk to us directly, email{" "}
             <a
               href="mailto:info@ennotraan.com"

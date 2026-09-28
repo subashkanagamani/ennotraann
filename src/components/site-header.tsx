@@ -40,9 +40,6 @@ export function SiteHeader() {
             whileHover={{ scale: 1.05, rotate: -1.5 }}
             transition={{ type: "spring", stiffness: 300, damping: 15 }}
           />
-          <span lang="ta" className="whitespace-nowrap font-sans text-base font-semibold text-foreground sm:text-lg">
-            என்நோற்றான்
-          </span>
         </Link>
 
         <nav className="hidden items-center gap-0.5 xl:flex">

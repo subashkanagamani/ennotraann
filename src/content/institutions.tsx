@@ -19,10 +19,10 @@ export const schools: InstitutionContent = {
   eyebrow: "For schools",
   title: "Empower your students beyond the classroom—at zero cost to your school or parents.",
   intro:
-    "A student's academic performance and wellbeing are built on daily habits formed at home. Ennotraan gives educators a turnkey, scientifically backed framework that helps parents nurture disciplined, emotionally grounded children without adding any operational or financial burden to the school.",
+    "A student's academic performance and wellbeing are built on daily habits formed at home. Ennotraan (என்நோற்றான்) gives educators a turnkey, scientifically backed framework that helps parents nurture disciplined, emotionally grounded children without adding any operational or financial burden to the school.",
   image: "schools",
   firstSectionTitle: "What parents receive",
-  secondSectionTitle: "Why educators recommend Ennotraan",
+  secondSectionTitle: "Why educators recommend Ennotraan (என்நோற்றான்)",
   challenges: [
     {
       title: "A 100% free screen-free ecosystem",
@@ -57,11 +57,11 @@ export const schools: InstitutionContent = {
     "A practical bridge between classroom values and family routines",
     "No student data, rankings, fees, or administrative workload",
   ],
-  ctaTitle: "Bring Ennotraan to your school, free.",
+  ctaTitle: "Bring Ennotraan (என்நோற்றான்) to your school, free.",
   ctaBody:
     "Tell us about your school and our team will walk your leadership through the setup, the boards, and the teacher app.",
   meta: {
-    title: "Ennotraan for Schools — screen-free habit building in class",
+    title: "Ennotraan (என்நோற்றான்) for Schools — screen-free habit building in class",
     description:
       "A free physical habit board and private teacher app that helps schools build punctuality, reading and focus, with parents reinforcing the same habits at home.",
   },
@@ -72,7 +72,7 @@ export const colleges: InstitutionContent = {
   eyebrow: "For colleges",
   title: "Self-discipline for students who finally control their own time.",
   intro:
-    "College is the first place nobody checks your routine. Ennotraan gives students a visible, screen-free anchor for study blocks, sleep, fitness, and focus.",
+    "College is the first place nobody checks your routine. Ennotraan (என்நோற்றான்) gives students a visible, screen-free anchor for study blocks, sleep, fitness, and focus.",
   image: "colleges",
   firstSectionTitle: "What gets in the way today",
   secondSectionTitle: "How the programme runs",
@@ -112,9 +112,9 @@ export const colleges: InstitutionContent = {
   ],
   ctaTitle: "Roll it out on your campus, free.",
   ctaBody:
-    "Share your college details and we will help you pilot Ennotraan with a department, hostel block, or student club.",
+    "Share your college details and we will help you pilot Ennotraan (என்நோற்றான்) with a department, hostel block, or student club.",
   meta: {
-    title: "Ennotraan for Colleges — student focus and self-discipline",
+    title: "Ennotraan (என்நோற்றான்) for Colleges — student focus and self-discipline",
     description:
       "A free habit board and screen-free focus system helping college students hold study blocks, sleep, fitness and phone-free hours without leaderboards.",
   },
@@ -125,10 +125,10 @@ export const corporates: InstitutionContent = {
   eyebrow: "For corporates",
   title: "Support your workforce where it matters most—building healthy, screen-free homes.",
   intro:
-    "An employee's productivity, mental focus, and job satisfaction are deeply tied to peace at home. Ennotraan is a zero-cost, high-impact family wellbeing initiative that reduces domestic friction, promotes digital detox, and honours the daily effort of working parents.",
+    "An employee's productivity, mental focus, and job satisfaction are deeply tied to peace at home. Ennotraan (என்நோற்றான்) is a zero-cost, high-impact family wellbeing initiative that reduces domestic friction, promotes digital detox, and honours the daily effort of working parents.",
   image: "corporates",
   firstSectionTitle: "What working parents receive",
-  secondSectionTitle: "Why HR leaders and ESG teams choose Ennotraan",
+  secondSectionTitle: "Why HR leaders and ESG teams choose Ennotraan (என்நோற்றான்)",
   challenges: [
     {
       title: "A 100% free screen-free framework",
@@ -165,9 +165,9 @@ export const corporates: InstitutionContent = {
   ],
   ctaTitle: "Start a pilot with your team, free.",
   ctaBody:
-    "Tell us about your organisation and we will help you run Ennotraan with a team, floor, or department.",
+    "Tell us about your organisation and we will help you run Ennotraan (என்நோற்றான்) with a team, floor, or department.",
   meta: {
-    title: "Ennotraan for Corporates — deep work and workplace wellbeing",
+    title: "Ennotraan (என்நோற்றான்) for Corporates — deep work and workplace wellbeing",
     description:
       "A free physical habit board and screen-free session app that helps teams protect deep work, movement and wellbeing habits without surveillance.",
   },

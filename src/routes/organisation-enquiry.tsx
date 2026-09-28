@@ -9,7 +9,7 @@ const searchSchema = z.object({
 const pageCopy: Record<EnquiryAudience, { eyebrow: string; title: string; intro: string }> = {
   school: {
     eyebrow: "School enquiry",
-    title: "Bring Ennotraan to your school.",
+    title: "Bring Ennotraan (என்நோற்றான்) to your school.",
     intro: "Tell us about your school and the students you would like to begin with. Our team will help you shape a simple, zero-cost pilot.",
   },
   college: {
@@ -34,10 +34,10 @@ export const Route = createFileRoute("/organisation-enquiry")({
   validateSearch: searchSchema,
   head: () => ({
     meta: [
-      { title: "Organisation Enquiry — Ennotraan" },
-      { name: "description", content: "Enquire about a free Ennotraan pilot for your school, college, or company." },
-      { property: "og:title", content: "Organisation Enquiry — Ennotraan" },
-      { property: "og:description", content: "Start a free Ennotraan pilot for your students or employees." },
+      { title: "Organisation Enquiry — Ennotraan (என்நோற்றான்)" },
+      { name: "description", content: "Enquire about a free Ennotraan (என்நோற்றான்) pilot for your school, college, or company." },
+      { property: "og:title", content: "Organisation Enquiry — Ennotraan (என்நோற்றான்)" },
+      { property: "og:description", content: "Start a free Ennotraan (என்நோற்றான்) pilot for your students or employees." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
