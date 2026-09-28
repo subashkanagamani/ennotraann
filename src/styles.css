@@ -184,6 +184,10 @@
     overflow-x: hidden;
   }
 
+  [lang="ta"] {
+    font-family: "Noto Sans Tamil", sans-serif;
+  }
+
   h1, h2, h3, blockquote {
     font-family: var(--font-display);
     font-weight: 500;

@@ -3,6 +3,7 @@ import { motion, useScroll, useSpring } from "motion/react";
 import { useState } from "react";
 
 const nav = [
+  { to: "/about", label: "Why we built" },
   { to: "/how-it-works", label: "How it works" },
   { to: "/foundations", label: "Foundations" },
   { to: "/schools", label: "Schools" },
@@ -11,7 +12,6 @@ const nav = [
   { to: "/partners", label: "Partners" },
   { to: "/for-everyone", label: "Not just for children" },
   { to: "/our-promise", label: "Our promise" },
-  { to: "/about", label: "Why we built it" },
 ] as const;
 
 
@@ -40,6 +40,9 @@ export function SiteHeader() {
             whileHover={{ scale: 1.05, rotate: -1.5 }}
             transition={{ type: "spring", stiffness: 300, damping: 15 }}
           />
+          <span lang="ta" className="whitespace-nowrap font-sans text-base font-semibold text-foreground sm:text-lg">
+            என்நோற்றான்
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-0.5 xl:flex">

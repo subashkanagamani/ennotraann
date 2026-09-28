@@ -14,7 +14,7 @@ export function SiteFooter() {
       />
       <Reveal className="relative mx-auto grid max-w-6xl gap-10 md:grid-cols-2">
         <div>
-          <h2 className="text-2xl">Ennotraan</h2>
+          <h2 className="text-2xl">Ennotraan <span lang="ta" className="font-sans text-lg">என்நோற்றான்</span></h2>
           <p className="mt-3 max-w-md leading-relaxed opacity-75">
             A 100% free, screen-free framework helping families build lifelong habits, one honest
             day at a time.
@@ -22,7 +22,7 @@ export function SiteFooter() {
 
           <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm opacity-80">
             <Link to="/about" className="underline-offset-4 hover:underline">
-              Why we built it
+              Why we built
             </Link>
             <Link to="/how-it-works" className="underline-offset-4 hover:underline">
               How it works
