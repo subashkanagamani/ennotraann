@@ -60,9 +60,9 @@ function ForEveryone() {
 
         <Reveal className="mt-12 rounded-2xl border border-primary/15 bg-secondary p-8 sm:p-10">
           <p className="max-w-3xl leading-relaxed text-muted-foreground">
-            Self-earned adult discipline points can be redeemed through our separate reimbursement
-            module for co-pay discounts with partner brands on books, wellness gear, productivity
-            tools, and lifestyle rewards.
+            The proposed retail partner network would let adults put self-earned discipline points
+            toward discount vouchers for books, wellness gear, productivity tools, and other useful
+            purchases. Points are not cash or a promise of free products.
           </p>
         </Reveal>
       </section>

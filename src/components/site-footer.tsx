@@ -42,6 +42,12 @@ export function SiteFooter() {
             <Link to="/partners" className="underline-offset-4 hover:underline">
               Partners
             </Link>
+            <Link to="/digital-hundi" className="underline-offset-4 hover:underline">
+              Digital Hundi
+            </Link>
+            <Link to="/faq" className="underline-offset-4 hover:underline">
+              FAQs
+            </Link>
             <Link to="/for-everyone" className="underline-offset-4 hover:underline">
               Not just for children
             </Link>

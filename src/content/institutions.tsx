@@ -59,11 +59,11 @@ export const schools: InstitutionContent = {
   ],
   ctaTitle: "Bring Ennotraan (என்நோற்றான்) to your school, free.",
   ctaBody:
-    "Tell us about your school and our team will walk your leadership through the setup, the boards, and the teacher app.",
+    "Tell us about your school and our team will walk your leadership through the setup, the boards, and the parent-led experience.",
   meta: {
-    title: "Ennotraan (என்நோற்றான்) for Schools — screen-free habit building in class",
+    title: "Ennotraan (என்நோற்றான்) for Schools — screen-free habits at home",
     description:
-      "A free physical habit board and private teacher app that helps schools build punctuality, reading and focus, with parents reinforcing the same habits at home.",
+      "A free physical habit board and parent-only app that helps families build reading, focus and daily routines without adding school IT workload.",
   },
 };
 
@@ -109,6 +109,7 @@ export const colleges: InstitutionContent = {
     "Focus time measured honestly, not by app screenshots",
     "Department, hostel, or club level rollouts",
     "No rankings between students, only progress against their own past week",
+    "A non-clinical habit support tool for focus and career readiness, not a mental health treatment",
   ],
   ctaTitle: "Roll it out on your campus, free.",
   ctaBody:
@@ -161,7 +162,7 @@ export const corporates: InstitutionContent = {
     "Healthier, calmer family routines for working parents",
     "Less home-front stress spilling into the working day",
     "A visible Society-First commitment to digital wellbeing",
-    "No employee surveillance, software integration, or management burden",
+    "No employee surveillance or software integration; any group-level reporting requires agreed privacy safeguards",
   ],
   ctaTitle: "Start a pilot with your team, free.",
   ctaBody:

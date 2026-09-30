@@ -13,6 +13,8 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as CollegesRouteImport } from './routes/colleges'
 import { Route as CorporatesRouteImport } from './routes/corporates'
+import { Route as DigitalHundiRouteImport } from './routes/digital-hundi'
+import { Route as FaqRouteImport } from './routes/faq'
 import { Route as ForEveryoneRouteImport } from './routes/for-everyone'
 import { Route as FoundationsRouteImport } from './routes/foundations'
 import { Route as HowItWorksRouteImport } from './routes/how-it-works'
@@ -40,6 +42,16 @@ const CollegesRoute = CollegesRouteImport.update({
 const CorporatesRoute = CorporatesRouteImport.update({
   id: '/corporates',
   path: '/corporates',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DigitalHundiRoute = DigitalHundiRouteImport.update({
+  id: '/digital-hundi',
+  path: '/digital-hundi',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FaqRoute = FaqRouteImport.update({
+  id: '/faq',
+  path: '/faq',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ForEveryoneRoute = ForEveryoneRouteImport.update({
@@ -88,6 +100,8 @@ export interface FileRoutesByFullPath {
   '/about': typeof AboutRoute
   '/colleges': typeof CollegesRoute
   '/corporates': typeof CorporatesRoute
+  '/digital-hundi': typeof DigitalHundiRoute
+  '/faq': typeof FaqRoute
   '/for-everyone': typeof ForEveryoneRoute
   '/foundations': typeof FoundationsRoute
   '/how-it-works': typeof HowItWorksRoute
@@ -102,6 +116,8 @@ export interface FileRoutesByTo {
   '/about': typeof AboutRoute
   '/colleges': typeof CollegesRoute
   '/corporates': typeof CorporatesRoute
+  '/digital-hundi': typeof DigitalHundiRoute
+  '/faq': typeof FaqRoute
   '/for-everyone': typeof ForEveryoneRoute
   '/foundations': typeof FoundationsRoute
   '/how-it-works': typeof HowItWorksRoute
@@ -117,6 +133,8 @@ export interface FileRoutesById {
   '/about': typeof AboutRoute
   '/colleges': typeof CollegesRoute
   '/corporates': typeof CorporatesRoute
+  '/digital-hundi': typeof DigitalHundiRoute
+  '/faq': typeof FaqRoute
   '/for-everyone': typeof ForEveryoneRoute
   '/foundations': typeof FoundationsRoute
   '/how-it-works': typeof HowItWorksRoute
@@ -133,6 +151,8 @@ export interface FileRouteTypes {
     | '/about'
     | '/colleges'
     | '/corporates'
+    | '/digital-hundi'
+    | '/faq'
     | '/for-everyone'
     | '/foundations'
     | '/how-it-works'
@@ -147,6 +167,8 @@ export interface FileRouteTypes {
     | '/about'
     | '/colleges'
     | '/corporates'
+    | '/digital-hundi'
+    | '/faq'
     | '/for-everyone'
     | '/foundations'
     | '/how-it-works'
@@ -161,6 +183,8 @@ export interface FileRouteTypes {
     | '/about'
     | '/colleges'
     | '/corporates'
+    | '/digital-hundi'
+    | '/faq'
     | '/for-everyone'
     | '/foundations'
     | '/how-it-works'
@@ -176,6 +200,8 @@ export interface RootRouteChildren {
   AboutRoute: typeof AboutRoute
   CollegesRoute: typeof CollegesRoute
   CorporatesRoute: typeof CorporatesRoute
+  DigitalHundiRoute: typeof DigitalHundiRoute
+  FaqRoute: typeof FaqRoute
   ForEveryoneRoute: typeof ForEveryoneRoute
   FoundationsRoute: typeof FoundationsRoute
   HowItWorksRoute: typeof HowItWorksRoute
@@ -214,6 +240,20 @@ declare module '@tanstack/react-router' {
       path: '/corporates'
       fullPath: '/corporates'
       preLoaderRoute: typeof CorporatesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/digital-hundi': {
+      id: '/digital-hundi'
+      path: '/digital-hundi'
+      fullPath: '/digital-hundi'
+      preLoaderRoute: typeof DigitalHundiRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/faq': {
+      id: '/faq'
+      path: '/faq'
+      fullPath: '/faq'
+      preLoaderRoute: typeof FaqRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/for-everyone': {
@@ -280,6 +320,8 @@ const rootRouteChildren: RootRouteChildren = {
   AboutRoute: AboutRoute,
   CollegesRoute: CollegesRoute,
   CorporatesRoute: CorporatesRoute,
+  DigitalHundiRoute: DigitalHundiRoute,
+  FaqRoute: FaqRoute,
   ForEveryoneRoute: ForEveryoneRoute,
   FoundationsRoute: FoundationsRoute,
   HowItWorksRoute: HowItWorksRoute,

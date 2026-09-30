@@ -82,9 +82,23 @@ function HowItWorks() {
           </p>
           <h3 className="mt-7 text-xl">Meaningful family rewards and social impact</h3>
           <p className="mt-4 max-w-3xl leading-relaxed text-muted-foreground">
-            Accumulated family points can later be redeemed through our separate Reimbursement Module, where curated Reward Reimbursement Partners offer exclusive co-pay discounts on educational tools, books, skill kits, apparel, and family lifestyle experiences. Families can also donate earned points toward social causes managed and fulfilled by Ennotraan (என்நோற்றான்). Points are never used for cash, screen time, or peer competition.
+            The proposed retail partner network lets families use accumulated points toward exclusive co-pay discount vouchers for books, learning tools, apparel, and family experiences. Points are not cash or a promise of free products, and are never used for screen time or peer competition.
           </p>
         </Reveal>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-6 pb-16">
+        <Reveal>
+          <h2 className="text-2xl sm:text-3xl">A different emphasis as children grow</h2>
+          <p className="mt-3 max-w-3xl leading-relaxed text-muted-foreground">The proposed child framework changes how effort is recognised across three stages. Parents always guide the process.</p>
+        </Reveal>
+        <div className="mt-8 grid gap-5 md:grid-cols-3">
+          {[
+            { title: "Incentive · ages 5–8", body: "Up to 20 points for routines and 10 for achievements each day. Small, visible recognition helps early routines feel meaningful." },
+            { title: "Autonomy · ages 9–12", body: "Routine points become zero; up to 30 points recognise achievements and written reflection. Everyday care becomes its own reward." },
+            { title: "Accountability · ages 13–17", body: "Up to 30 achievement points. Parents may choose negative marks for missed commitments, but a daily score never falls below zero." },
+          ].map(item => <div key={item.title} className="rounded-lg border border-border bg-card p-7"><h3 className="text-xl">{item.title}</h3><p className="mt-3 leading-relaxed text-muted-foreground">{item.body}</p></div>)}
+        </div>
       </section>
 
       <section className="mx-auto max-w-6xl px-6 py-16">

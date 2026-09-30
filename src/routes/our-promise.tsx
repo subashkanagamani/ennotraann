@@ -13,7 +13,7 @@ export const Route = createFileRoute("/our-promise")({
       {
         name: "description",
         content:
-          "Ennotraan (என்நோற்றான்) collects no data about your child, has no leaderboards, releases points monthly, and never treats points as money.",
+          "Ennotraan (என்நோற்றான்) asks for no child-identifying profile, has no leaderboards, recognises steady effort, and never treats points as money.",
       },
       { property: "og:title", content: "Our promise — no child data, no leaderboards" },
       { property: "og:type", content: "website" },

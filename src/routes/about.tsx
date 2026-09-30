@@ -83,7 +83,7 @@ function About() {
         <Reveal className="mb-12 max-w-3xl text-lg leading-relaxed text-muted-foreground">
           <p>
             To keep the platform completely free for every home, we sustain our operations by
-            earning modest referral commissions through our reward reimbursement partners, trusted
+            a planned retail partner network, with agreed referral fees from trusted
             brands offering family-friendly discounts when discipline points are redeemed. We never
             monetise through child data, ads, or hidden fees.
           </p>

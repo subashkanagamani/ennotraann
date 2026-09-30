@@ -131,12 +131,12 @@ export const promises: { icon: ReactNode; title: string; body: string }[] = [
   },
   {
     icon: <ClockIcon />,
-    title: "A monthly rhythm, not instant rewards",
-    body: "Points build up every day but are only given out once a month, the same lesson every good habit teaches, earned slowly, valued more.",
+    title: "Recognition for steady effort",
+    body: "Parents review daily effort and award points within age-appropriate limits. The real reward is the habit and the time spent together.",
   },
   {
     icon: <CoinIcon />,
     title: "Never treated as money",
-    body: "Points cannot be sold, transferred, or cashed out. They can only be turned into a real, useful reward, or donated to social needs, which Ennotraan (என்நோற்றான்) ethically parks for the needy.",
+    body: "Points cannot be sold, transferred, or cashed out. The proposed retail partner programme uses points toward discounts on family purchases, not cash or free products.",
   },
 ];
