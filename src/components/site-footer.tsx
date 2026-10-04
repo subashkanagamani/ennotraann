@@ -67,6 +67,10 @@ export function SiteFooter() {
             <a href="mailto:info@ennotraan.com" className="underline-offset-4 hover:underline">
               info@ennotraan.com
             </a>
+            {" · "}
+            <a href="tel:+914431622285" className="underline-offset-4 hover:underline">
+              044 - 3162 2285
+            </a>
           </p>
           <p className="mt-3">
             A social initiative by PPLMeliorate Services Private Limited, a recognised startup in

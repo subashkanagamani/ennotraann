@@ -108,6 +108,13 @@ function About() {
             >
               info@ennotraan.com
             </a>
+            {" or call "}
+            <a
+              href="tel:+914431622285"
+              className="text-primary underline-offset-4 hover:underline"
+            >
+              044 - 3162 2285
+            </a>
             .
           </p>
         </Reveal>
