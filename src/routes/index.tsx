@@ -47,7 +47,21 @@ function Home() {
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="inline-block rounded-full border border-leaf/30 bg-leaf/10 px-4 py-1.5 text-sm text-leaf"
+            className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-4 py-1.5 text-sm text-foreground"
+          >
+            <motion.span
+              aria-hidden
+              animate={{ opacity: [1, 0.4, 1] }}
+              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+              className="h-2 w-2 rounded-full bg-gold"
+            />
+            Launching Soon
+          </motion.p>
+          <motion.p
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.08 }}
+            className="mt-3 inline-flex items-center rounded-full border border-leaf/30 bg-leaf/10 px-4 py-1.5 text-sm text-leaf"
           >
             A 100% free, screen-free way to build good habits and a family digital detox
           </motion.p>

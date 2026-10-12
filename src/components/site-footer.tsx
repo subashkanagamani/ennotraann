@@ -19,6 +19,10 @@ export function SiteFooter() {
             A 100% free, screen-free framework helping families build lifelong habits, one honest
             day at a time.
           </p>
+          <p className="mt-5 inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-3.5 py-1.5 text-xs">
+            <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-gold" />
+            Launching Soon
+          </p>
 
           <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm opacity-80">
             <Link to="/about" className="underline-offset-4 hover:underline">

@@ -32,10 +32,11 @@ export function JoinForm() {
               <path d="M5 12.5l4.5 4.5L19 7.5" />
             </svg>
           </motion.span>
-          <h3 className="mt-6 text-2xl text-foreground">Thank you for joining</h3>
+          <h3 className="mt-6 text-2xl text-foreground">You are on the launch list</h3>
           <p className="mt-3 text-muted-foreground">
-            Your details are with us. Someone from our team will reach out personally to welcome you
-            in. There is nothing to pay, today or ever.
+            Ennotraan (என்நோற்றான்) is launching soon. Your details are with us, and someone from our
+            team will reach out personally to welcome you in when we begin. There is nothing to pay,
+            today or ever.
           </p>
         </motion.div>
       ) : (
@@ -48,6 +49,10 @@ export function JoinForm() {
           transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
           className="rounded-2xl border border-primary/15 bg-card p-8 shadow-soft sm:p-10"
         >
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-3.5 py-1 text-xs text-foreground">
+            <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-gold" />
+            Launching Soon
+          </div>
           <div className="grid gap-5">
             <label className="grid gap-2">
               <span className="text-sm text-muted-foreground">Your name</span>
@@ -87,8 +92,8 @@ export function JoinForm() {
             Join free, no cost ever
           </motion.button>
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-            By joining, you are only agreeing to be contacted about this free programme. We will
-            never sell your information.
+            Ennotraan (என்நோற்றான்) is launching soon. By joining, you are only agreeing to be
+            contacted about this free programme when we begin. We will never sell your information.
           </p>
         </motion.form>
       )}

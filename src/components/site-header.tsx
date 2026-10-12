@@ -69,6 +69,10 @@ export function SiteHeader() {
         </nav>
 
         <div className="flex items-center gap-3">
+          <span className="hidden items-center gap-2 whitespace-nowrap rounded-full border border-gold/40 bg-gold/10 px-3.5 py-1.5 text-xs text-foreground lg:inline-flex">
+            <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-gold" />
+            Launching Soon
+          </span>
           <Link
             to="/join"
             className="hidden rounded-full bg-primary px-5 py-2.5 text-sm text-primary-foreground shadow-soft transition-transform hover:scale-[1.04] sm:inline-block"
