@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { Reveal } from "./motion";
 
 export function CtaBand({
-  title = "Join today. It costs nothing, now or later.",
+  title = "Join today. Free for children, always.",
   body = "Leave your details and our team will personally reach out to welcome you in.",
   organisationAudience,
 }: {
@@ -40,7 +40,7 @@ export function CtaBand({
                   to="/join"
                   className="inline-block rounded-full bg-background px-8 py-4 font-semibold text-primary shadow-soft"
                 >
-                  Join free, no cost ever
+                  Join free for children
                 </Link>
               )}
             </motion.div>
