@@ -35,8 +35,8 @@ export function JoinForm() {
           <h3 className="mt-6 text-2xl text-foreground">You are on the launch list</h3>
           <p className="mt-3 text-muted-foreground">
             Ennotraan (என்நோற்றான்) is launching soon. Your details are with us, and someone from our
-            team will reach out personally to welcome you in when we begin. There is nothing to pay,
-            today or ever.
+            team will reach out personally to welcome you in when we begin. Ennotraan (என்நோற்றான்) is free for
+            children; adult plans are paid.
           </p>
         </motion.div>
       ) : (
@@ -89,11 +89,11 @@ export function JoinForm() {
             whileTap={{ scale: 0.98 }}
             className="mt-7 w-full rounded-full bg-primary px-6 py-4 text-base text-primary-foreground shadow-soft"
           >
-            Join free, no cost ever
+            Join free for children
           </motion.button>
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
             Ennotraan (என்நோற்றான்) is launching soon. By joining, you are only agreeing to be
-            contacted about this free programme when we begin. We will never sell your information.
+            contacted about the programme when we begin. It is free for children; adult plans are paid. We will never sell your information.
           </p>
         </motion.form>
       )}
