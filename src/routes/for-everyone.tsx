@@ -64,12 +64,13 @@ function ForEveryone() {
             toward discount vouchers for books, wellness gear, productivity tools, and other useful
             purchases. Points are not cash or a promise of free products.
           </p>
+          <p className="mt-4 max-w-3xl font-semibold text-foreground">Adult plans are paid. Children use Ennotraan (என்நோற்றான்) free.</p>
         </Reveal>
       </section>
 
       <CtaBand
         title="Whatever the age, the habit starts today."
-        body="Join free and set up your first board with someone you care about."
+        body="Free for children, paid plans for adults. Join the launch list and set up your first board."
       />
     </>
   );
