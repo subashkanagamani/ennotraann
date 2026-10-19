@@ -63,7 +63,7 @@ function OurPromise() {
 
       <CtaBand
         title="A tool you can trust in your home."
-        body="Join free. No cost, no data on your child, no catch."
+        body="Join free. Free for children, no data on your child, no catch."
       />
     </>
   );
