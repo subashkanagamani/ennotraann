@@ -10,7 +10,7 @@ export const Route = createFileRoute("/about")({
       {
         name: "description",
         content:
-          "Ennotraan (என்நோற்றான்) is offered completely free to families. We sustain operations through modest referral commissions from reward reimbursement partners, never child data or ads.",
+          "Ennotraan (என்நோற்றான்) is free for children. Adult plans are paid. We never earn from child data or ads.",
       },
       {
         property: "og:title",
@@ -30,12 +30,12 @@ export const Route = createFileRoute("/about")({
 
 const values = [
   {
-    title: "Free, and staying free",
-    body: "There is no paid tier waiting behind the door. Families pay nothing, today or ever.",
+    title: "Free for children, always",
+    body: "Every child's board and habit journey is free. Adults building their own habits use a paid plan.",
   },
   {
     title: "Never monetised through children",
-    body: "No child data, no ads, no hidden fees. The platform is sustained by partner referrals, not by families.",
+    body: "No child data, no ads, no hidden fees. Children never pay; the platform is sustained by adult plans and partner referrals.",
   },
   {
     title: "Built slowly, properly",
@@ -82,8 +82,8 @@ function About() {
       <section className="mx-auto max-w-6xl px-6 py-20">
         <Reveal className="mb-12 max-w-3xl text-lg leading-relaxed text-muted-foreground">
           <p>
-            To keep the platform completely free for every home, we sustain our operations by
-            a planned retail partner network, with agreed referral fees from trusted
+            To keep Ennotraan (என்நோற்றான்) free for every child, we sustain our operations through
+            paid adult plans and a planned retail partner network, with agreed referral fees from trusted
             brands offering family-friendly discounts when discipline points are redeemed. We never
             monetise through child data, ads, or hidden fees.
           </p>
