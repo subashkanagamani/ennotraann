@@ -20,7 +20,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Build lifelong daily habits for every generation at home, without placing a screen in your child's hands. Offered completely free.",
+          "Build lifelong daily habits for every generation at home, without placing a screen in your child's hands. Free for children; paid plans for adults.",
       },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -95,8 +95,7 @@ function Home() {
             Ennotraan (என்நோற்றான்) pairs a simple, physical board with a private app to build lifelong daily
             habits for every generation at home, without placing a screen in your child's hands. It
             gives parents a scientific tool to ease the hardship of everyday parenting, and gives
-            adults a structured system to become true masters of their own lives. Offered completely
-            free as our humble contribution toward healthier, bonded homes, never as a business
+            adults a structured system to become true masters of their own lives. Free for every child, with paid plans for adults, as our humble contribution toward healthier, bonded homes, never as a business
             selling to children.
           </motion.p>
           <motion.div
@@ -109,7 +108,7 @@ function Home() {
               to="/join"
               className="rounded-full bg-primary px-7 py-3.5 text-primary-foreground shadow-soft transition-transform hover:scale-[1.04]"
             >
-              Join free, no cost ever
+              Join free for children
             </Link>
             <Link
               to="/how-it-works"
