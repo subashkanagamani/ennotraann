@@ -6,13 +6,13 @@ import { Reveal } from "@/components/motion";
 export const Route = createFileRoute("/join")({
   head: () => ({
     meta: [
-      { title: "Join Ennotraan (என்நோற்றான்) free — launching soon, no cost now or later" },
+      { title: "Join Ennotraan (என்நோற்றான்) — launching soon, free for children" },
       {
         name: "description",
         content:
           "Ennotraan (என்நோற்றான்) is launching soon. Leave your details and our team will personally welcome your family in. It is a free invitation, not a purchase.",
       },
-      { property: "og:title", content: "Join Ennotraan (என்நோற்றான்) free — launching soon, no cost now or later" },
+      { property: "og:title", content: "Join Ennotraan (என்நோற்றான்) — launching soon, free for children" },
       { property: "og:type", content: "website" },
       {
         property: "og:description",
@@ -57,7 +57,7 @@ function Join() {
           transition={{ duration: 0.75, delay: 0.08, ease: [0.16, 1, 0.3, 1] }}
           className="mt-5 text-4xl leading-[1.12] sm:text-5xl"
         >
-          Join the launch list. It costs nothing, now or later.
+          Join the launch list. Free for children, always.
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -71,7 +71,7 @@ function Join() {
         </motion.p>
         <Reveal delay={0.3}>
           <p className="mt-6 max-w-xl italic text-leaf">
-            This is a free invitation, not a purchase. There is nothing to pay, today or ever.
+            Joining the launch list is free. Ennotraan (என்நோற்றான்) is free for children; adults building their own habits use a paid plan.
           </p>
         </Reveal>
       </div>
