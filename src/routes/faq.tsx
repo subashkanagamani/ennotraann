@@ -9,6 +9,8 @@ const groups = [
     ["Why is this for more than children?", "Personal progress matters more when our wider community grows too. Ennotraan (என்நோற்றான்) welcomes children, parents, college students and working adults—each working on their own routines."],
     ["What does the child use, and what does the parent use?", "A child uses a physical board, paper habit sheet and space to write about the day. The parent alone uses the app for reviewing effort, recording points, tracking consistency and managing partner offers. The child does not need a phone or an account."],
     ["How do families choose routines?", "Parents can choose up to 12 suggested routines or create their own. The board stays visible and the family can adapt its daily practice to school and work schedules."],
+    ["Is Ennotraan (என்நோற்றான்) free?", "Ennotraan (என்நோற்றான்) is free for children. Adults—college students, parents and working professionals building their own habits—use a paid plan. Plan details will be shared at launch."],
+    ["What happens when a child account turns into an adult account?", "There are no charges. When a child who started on Ennotraan (என்நோற்றான்) grows into an adult account, the move is free—no fees are charged for continuing their journey."],
   ]},
   { id: "privacy", title: "Privacy & family time", questions: [
     ["What information about my child is collected?", "The proposed habit experience does not ask for a child's name, date of birth, gender, photo or school name. A parent-managed account records habit consistency and points. This is the intended privacy design, not a certification of legal compliance. Any future financial partner service would need separate terms and privacy review."],
@@ -29,7 +31,7 @@ const groups = [
     ["What does a school need to do?", "Students use an offline board at home. The parent handles the app, while the school can introduce families to the programme without student devices, Wi-Fi, teacher tracking or school IT integration."],
     ["How could colleges use it?", "Students can use a physical board to keep study, sleep and focus routines visible. Departments, hostel groups or clubs can explore a pilot; it is a habit support tool, not a clinical treatment for anxiety or burnout."],
     ["How could employers take part?", "Employers can explore a family wellbeing pilot for working parents. The supplied partnership proposal also describes optional co-branded boards and anonymised, group-level engagement reports, which would require an agreed programme and appropriate privacy safeguards."],
-    ["Can companies support schools too?", "The proposed sponsorship model allows a company to fund boards for school families, with agreed branding and delivery confirmation. It is separate from the free family and school participation described on this site."],
+    ["Can companies support schools too?", "The proposed sponsorship model allows a company to fund boards for school families, with agreed branding and delivery confirmation. It is separate from the free participation for children and schools described on this site."],
   ]},
   { id: "partners", title: "Retail & financial partners", questions: [
     ["What does a retail partner get?", "The proposed package includes a brand and offer listing, store links and locations, cashier voucher verification, online coupon options, branded materials and redemption reports. Fees, placement, integrations and availability are discussed individually; no portal is live on this site."],
